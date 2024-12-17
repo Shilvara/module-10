@@ -1,0 +1,125 @@
+.gulp-coffee{
+  background-color: #F2F2F2;
+  box-sizing: border-box;
+}
+
+.top{
+  background-color: #082B59;
+  border-bottom: 15px solid #D98555;
+  display: flex;
+  justify-content: space-between;
+  
+.nav { /* navigation bar */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 400%;
+  color: #F2F2F2;
+  margin-right: 2%;
+  margin-bottom: -3%;
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+    margin: 0% 15px;
+    }}
+
+    .logo{ /* top image */
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      }
+  }
+  
+
+.footer { /* footer */
+  background-color: #082B59;
+  border-top: 15px solid #D98555;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  font-size: 85%;
+  margin-top: 2%;
+  color: #F2F2F2;
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline;
+    margin: 0% 5px;
+    }}
+  
+
+.button {/* contact us button */
+  display: flex;
+  justify-content: flex-start;
+  background-color: #59331d;
+  color: #F2F2F2;
+  width: 5%;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  margin-left: 10%;
+  cursor: pointer;
+  }
+
+
+.body{
+  display: flex;
+  margin-top: 2%;
+  color: #131D26;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+
+.article {/* main article */
+  justify-content: flex-start;
+  margin: 1% 5%;
+  font-size: 125%;
+  }
+  
+  /* figure and it's captions */
+.figure{
+  justify-content: flex-end;
+  margin-right: 5%;
+  }
+
+}
+
+.productPage{
+
+  .productTitle{
+    margin-left: 2%;
+    font-size: 150%;
+  }
+
+  .product1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 150%;
+    margin: 1%;
+  }
+
+  .product2{
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    margin: 1%;
+  }
+
+  .product3{
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    margin: 1%;
+  }
+
+}
+
